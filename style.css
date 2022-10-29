@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.output {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 250px;
+  grid-gap: 10px;
+  margin: 10px 10px 10px 10px;
+}
+.result {
+  /* background-color: green; */
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  /* border: 1px solid red; */
+}
+.alphabetic {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.letter {
+  border: 1px solid gray;
+  /* background-color: green */
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  /* color: white; */
+  cursor: pointer;
+}
+.letter:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+  .output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 150px;
+    grid-gap: 2px;
+    margin: 1px 1px 1px 1px;
+  }
+  .result {
+    /* background-color: green; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* border: 1px solid red; */
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .alphabetic {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .letter {
+    border: 1px solid gray;
+    /* background-color: green */
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    /* color: white; */
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 150px;
+    grid-gap: 2px;
+    margin: 1px 1px 1px 1px;
+  }
+  .result {
+    /* background-color: green; */
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* border: 1px solid red; */
+  }
+  img {
+    width: 150px;
+    height: 130px;
+  }
+  .alphabetic {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 6px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .letter {
+    border: 1px solid gray;
+    /* background-color: green */
+    text-align: center;
+    padding: 6px;
+    font-size: 25px;
+    /* color: white; */
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 150px;
+    grid-gap: 5px;
+    margin: 1px 1px 1px 1px;
+  }
+  .result {
+    /* background-color: green; */
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* border: 1px solid red; */
+  }
+  img {
+    width: 150px;
+    height: 130px;
+  }
+  .alphabetic {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 7px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .letter {
+    border: 1px solid gray;
+    /* background-color: green */
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+    /* color: white; */
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 250px;
+    grid-gap: 10px;
+    margin: 10px 10px 10px 10px;
+  }
+  .result {
+    /* background-color: green; */
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* border: 1px solid red; */
+  }
+  /* img {
+    width: 150px;
+    height: 130px;
+  } */
+  .alphabetic {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .letter {
+    border: 1px solid gray;
+    /* background-color: green */
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    /* color: white; */
+    cursor: pointer;
+  }
+}
